@@ -1,0 +1,44 @@
+html * {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*----- MAIN -----*/
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  /*background-color: yellow;*/
+}
+.top-container section {
+  max-width: 32%;
+  margin: 2% 0 4% 0;
+  padding-right: 2%;
+  float: left;
+
+  /*background-color: orange;*/
+}
+.top-container section:last-child {
+  padding-right: 0;
+}
+.internal-border {
+  height: inherit;
+  width: inherit;
+  padding: 0 1em 1em 1em;
+  border: 2px solid black;
+}
+
+/*----- SECTION.portfolio-container -----*/
+.portfolio-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  clear: both;
+}
+.row-top section, .row-bottom section {
+  max-width: 32%;
+  margin: 2% 0 4% 0;
+  padding-right: 2%;
+  float: left;
+}
+.row-top section:last-child, .row-bottom section:last-child {
+  padding-right: 0;
+}
