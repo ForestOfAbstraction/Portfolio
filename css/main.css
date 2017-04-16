@@ -1,22 +1,45 @@
 html * {
+  margin: 0;
+  padding: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
+}
+ul {
+  list-style-type: none;
+}
+/*----- HEADER -----*/
+header {
+  width: 100%;
+
+  height: 50px;
+  background-image: url("http://placehold.it/1826x50/000");
+}
+.nav-box {
+  margin: 0 auto;
+  padding: 1em; 0;
+  max-width: 1200px;
+}
+.nav-box ul {
+  color: white;
+}
+#left-nav li {
+  float: left;
+}
+#right-nav li {
+  padding-left: 1em;
+  float: right;
 }
 
 /*----- MAIN -----*/
 main {
   max-width: 1200px;
   margin: 0 auto;
-
-  /*background-color: yellow;*/
 }
 .top-container section {
   max-width: 32%;
   margin: 2% 0 4% 0;
   padding-right: 2%;
   float: left;
-
-  /*background-color: orange;*/
 }
 .top-container section:last-child {
   padding-right: 0;
@@ -27,7 +50,6 @@ main {
   padding: 0 1em 1em 1em;
   border: 2px solid black;
 }
-
 /*----- SECTION.portfolio-container -----*/
 .portfolio-container {
   max-width: 1200px;
@@ -49,7 +71,6 @@ main {
 .title-portfolio {
   font-size: 160%;
 }
-
 /*----- SECTION.features-container -----*/
 .features-container {
   max-width: 1200px;
@@ -72,7 +93,6 @@ main {
   padding-bottom: 2%;
   float: right;
 }
-
 /*----- SECTION.call-to-action----- */
 section.call-to-action {
   max-width: 1200px;
@@ -95,7 +115,6 @@ section.call-to-action {
 #last-hr {
   clear: both;
 }
-
 /*----- FOOTER -----*/
 footer {
   max-width: 1200px;
