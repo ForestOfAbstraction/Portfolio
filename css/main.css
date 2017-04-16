@@ -1,5 +1,6 @@
 html * {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
 }
 
 /*----- MAIN -----*/
@@ -35,10 +36,77 @@ main {
 }
 .row-top section, .row-bottom section {
   max-width: 32%;
-  margin: 2% 0 4% 0;
+  margin: 1% 0 0 0;
   padding-right: 2%;
   float: left;
 }
+.row-bottom section {
+  margin-top: 2%;
+}
 .row-top section:last-child, .row-bottom section:last-child {
   padding-right: 0;
+}
+.title-portfolio {
+  font-size: 160%;
+}
+
+/*----- SECTION.features-container -----*/
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  clear: both;
+}
+.title-features {
+  font-size: 160%;
+  padding-top: 4%;
+}
+#feature-content {
+  max-width: 48%;
+  padding-top: 1%;
+  padding-right: 2%;
+  float: left;
+}
+#feature-img {
+  max-width: 48%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  float: right;
+}
+
+/*----- SECTION.call-to-action----- */
+section.call-to-action {
+  max-width: 1200px;
+  margin: 0 auto;
+  clear: both;
+}
+.cta-container > p {
+  max-width: 70%;
+  margin-bottom: 1.5em;
+  float: left;
+}
+.button-container {
+  text-align: center;
+  padding-top: 1%;
+}
+.cta {
+  width: 25%;
+  height: 40px;
+}
+#last-hr {
+  clear: both;
+}
+
+/*----- FOOTER -----*/
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  clear: both;
+}
+footer > p {
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
