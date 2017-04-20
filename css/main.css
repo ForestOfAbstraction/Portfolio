@@ -36,7 +36,41 @@ header {
   padding-left: 1em;
   float: right;
 }
+/*----- SECTION.slider -----*/
+ul#slides {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: darkgray;
+}
+ul#slides .slide {
+  position: absolute;
+  width: inherit;
+  height: inherit;
 
+  text-align: center;
+  margin-top: 1.75em;
+  font-size: 500%;
+  color: white;
+}
+.slide {
+  display: none;
+}
+.showing {
+  display: block;
+}
+li.slide {
+  animation-duration: 2s;
+  animation-name: slideIn;
+}
+@keyframes slideIn {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
 /*----- MAIN -----*/
 main {
   max-width: 1200px;
