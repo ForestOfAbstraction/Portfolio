@@ -9,11 +9,10 @@ ul:not(#features-list) {
 }
 a {
   text-decoration: none;
-  color: lightgray;
+  color: gray;
 }
 a:hover {
   color: white;
-  font-weight: bold;
 }
 /*----- HEADER -----*/
 header {
@@ -46,6 +45,13 @@ main {
 main > h1 {
   padding-top: 1em;
 }
+h3 {
+  margin: .5em 0;
+  padding: .25em 0;
+}
+.internal-border > h3 {
+  background-color: lightgray;
+}
 .top-container section {
   max-width: 32%;
   margin: 2% 0 4% 0;
@@ -60,6 +66,9 @@ main > h1 {
   width: inherit;
   padding: 0 1em 1em 1em;
   border: 2px solid black;
+}
+.internal-border p {
+  padding: .75em 0;
 }
 /*----- SECTION.portfolio-container -----*/
 .portfolio-container {
@@ -115,12 +124,13 @@ section.call-to-action {
 }
 .cta-container > p {
   max-width: 70%;
-  margin-bottom: 1.5em;
   float: left;
+
+  background-color: lightgray;
 }
 .button-container {
   text-align: center;
-  padding-top: 1%;
+  margin: 1.5em 0;
 }
 .cta {
   width: 25%;
