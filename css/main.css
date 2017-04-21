@@ -10,9 +10,15 @@ ul:not(#features-list) {
 a {
   text-decoration: none;
   color: gray;
+
+  transition-duration: 500ms;
+  transition-property: color;
 }
 a:hover {
   color: white;
+}
+a:active {
+  color: green;
 }
 /*----- HEADER -----*/
 header {
@@ -40,29 +46,36 @@ header {
 ul#slides {
   position: relative;
   width: 100%;
-  background: darkgray;
+  background-color: darkgray;
 }
+
 .slide {
   position: absolute;
   width: inherit;
   height: 400px;
   text-align: center;
   font-size: 300%;
+  
 
-  background-color: gray;
+  background-color: darkgray;
+  transition-duration: 5s;
+  transition-property: opacity, textshadow;
+  color: darkgray;
+  opacity: 0;
+}
+span.he-said {
+  color: orange;
 }
 .showing {
   color: white;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 2px 2px 1px black;
+  opacity: 1;
   z-index: 1;
 }
 p.slide-content {
   width: inherit;
   height: inherit;
   padding-top: 3em;
-}
-span.he-said {
-  color: orange;
 }
 /*----- MAIN -----*/
 main {
