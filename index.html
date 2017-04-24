@@ -15,32 +15,76 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <header>
-    <nav class="nav-box">
-    <ul id="left-nav">
-      <li><a href="#">Forest of Abstraction</a></li>
-    <ul>
-    <ul id="right-nav">
-      <li><a href="#">Other Pages&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></a></li>
-      <li><a href="#">Blog&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></a></li>
-      <li><a href="#">Portfolio&nbsp;<i class="fa fa-sort-desc" aria-hidden="true"></i></a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">About</a></li>
-    </ul>
+  <header id="navigation">
+    <nav id="nav-box">
+      <ul id="foa">
+        <li><a id="link-foa" href="#">Forest of Abstraction</a></li>
+      </ul>
+      <ul id="about">
+        <li><a id="link-about" href="#">About</a></li>
+      </ul>
+      <ul id="services">
+        <li><a id="link-services" href="#">Services</a></li>
+      </ul>
+      <ul id="contact">
+        <li><a id="link-contact" href="#">Contact</a></li>
+      </ul>
+      <ul id="portfolio">
+        <li><a id="link-portfolio" href="#">Portfolio <i class="fa fa-check-square" aria-hidden="true"></i></a>
+          <ul id="sub-portfolio">
+            <li><a id="-sub-link-portfolio-1" href="#">Portfolio 1</a></li>
+            <li><a id="-sub-link-portfolio-2" href="#">Portfolio 2</a></li>
+            <li><a id="-sub-link-portfolio-3" href="#">Portfolio 3</a></li>
+            <li><a id="-sub-link-portfolio-4" href="#">Portfolio 4</a></li>
+            <li><a id="-sub-link-portfolio-5" href="#">Portfolio 5</a></li>
+            <li><a id="-sub-link-portfolio-6" href="#">Portfolio 6</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul id="blog">
+        <li><a id="link-blog" href="#">Blog <i class="fa fa-check-square" aria-hidden="true"></i></a>
+          <ul id="sub-blog">
+            <li><a id="-sub-link-blog-1" href="#">Blog 1</a></li>
+            <li><a id="-sub-link-blog-2" href="#">Blog 2</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul id="otherpages">
+        <li><a id="link-otherpages" href="#">Other Pages  <i class="fa fa-check-square" aria-hidden="true"></i></a>
+          <ul id="sub-otherpages">
+            <li><a id="-sub-link-otherpages-1" href="#">Other Pages 1</a></li>
+            <li><a id="-sub-link-otherpages-2" href="#">Other Pages 2</a></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
   </header>
 
-  <section class="slider">
-      <!--<i id="left-caret" class="fa fa-caret-left fa-5x" aria-hidden="true"></i>-->
+  
+  <!--<section class="slider">
     <ul id="slides">
-      <li id="first-child" class="slide showing"><p class="slide-content"><span class="he-said">Curly says,</span> "This is gettin' on my noives!"</p></li>
-      <li class="slide"><p class="slide-content"><span class="he-said">Larry says,</span> "I didn't wanna say yes, but I couldn't say no."</p></li>
-      <li class="slide"><p class="slide-content"><span class="he-said">Moe says,</span> "Why don't ye looketh where ye swishith?"</p></li>
+      <li id="first-child" class="slide showing">
+        <p class="slide-content">
+          <span class="he-said">Curly says,
+          </span> "This is gettin' on my noives!"
+        </p>
+      </li>
+      <li class="slide">
+        <p class="slide-content">
+          <span class="he-said">Larry says,
+          </span>
+          "I didn't wanna say yes, but I couldn't say no."
+        </p>
+      </li>
+      <li class="slide">
+        <p class="slide-content">
+          <span class="he-said">Moe says,
+          </span>
+          "Why don't ye looketh where ye swishith?"
+        </p>
+      </li>
     </ul>
-      <!--<i id="right-caret" class="fa fa-caret-right fa-5x" aria-hidden="true"></i>-->
-      <!--<button class="controls" id="pause">Pause</button>-->
-  </section>
+  </section>-->
 
   <main>
     <h1>Hosted on GitHub
@@ -72,7 +116,6 @@
         </div>
       </section>
     </div>
-
   </main>
 
   <section class="portfolio-container">
