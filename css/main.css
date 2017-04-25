@@ -61,17 +61,27 @@ ul li a:hover {
   position: absolute;
   padding: .75em .5em 0 .5em;
 
+  height: 2.25em;
   background-color: black;
   overflow: hidden;
   transition-duration: 1.5s;
   transition-property: height;
+}
+#nav-box ul ul {
+  /*position: absolute;*/
+  margin-top: .9em;
+  padding-top: 0;
+  height: 100%;
+  width: 100%;
+  margin-left: -.5em;
+  background-color: black;
 }
 /*----- SECTION.slider -----*/
 #foa {
   left: 0;
 }
 #about {
-  right: 38%;
+  right: 37.5%;
 }
 #services {
   right: 31.25%;
@@ -82,7 +92,6 @@ ul li a:hover {
 #portfolio {
   width: 7.5%;
   right: 16.5%;
-  height: 1.5em;
 }
 #portfolio:hover {
   height: 11em;
@@ -91,7 +100,6 @@ ul li a:hover {
 #blog {
   width: 5%;
   right: 11%;
-  height: 1.5em;
 }
 #blog:hover {
   height: 5.5em;
@@ -100,7 +108,6 @@ ul li a:hover {
 #otherpages {
   width: 10%;
   right: 0;
-  height: 1.5em;
 }
 #otherpages:hover {
   height: 5.5em;
